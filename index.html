@@ -6,52 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
   </head>
+
   <body>
-    <body>
-      <div class="container">
-        <div>
-          <h1 class="heading">Todo List</h1>
-          <form class="inputForm">
-            <div class="inputWrapper">
-              <input
-                type="text"
-                name=""
-                id=""
-                class="input"
-                placeholder="type your todo"
-              />
-            </div>
-            <button type="submit" class="btn btn-primary">Add Item</button>
-          </form>
-          <div class="todoItems">
-            <ul class="todoList">
-              <li class="todoItem">
-                <div class="todoItemWrapper">
-                  <div class="checkWrapper">
-                    <input type="checkbox" class="check" name="" id="" />
-                  </div>
-                  <p class="todoText">Go to Shopping</p>
-                  <div class="buttons">
-                    <button class="deleteBtn btn btn-danger">Delete</button>
-                  </div>
-                </div>
-              </li>
-              <li class="todoItem">
-                <div class="todoItemWrapper">
-                  <div class="checkWrapper">
-                    <input type="checkbox" class="check" name="" id="" />
-                  </div>
-                  <p class="todoText">Go to Shopping</p>
-                  <div class="buttons">
-                    <button class="deleteBtn btn btn-danger">Delete</button>
-                  </div>
-                </div>
-              </li>
-            </ul>
+    <div class="container">
+      <div>
+        <h1 class="heading">Todo List</h1>
+        <form class="inputForm">
+          <div class="inputWrapper">
+            <input
+              type="text"
+              name=""
+              id="inputText"
+              class="input"
+              placeholder="type your todo"
+            />
           </div>
+          <button type="submit" id="submitBtn" class="btn btn-primary">
+            Add Item
+          </button>
+        </form>
+        <div class="todoItems">
+          <ul class="todoList" id="todoList">
+            <li class="todoItem">
+              <div class="todoItemWrapper">
+                <div class="checkWrapper">
+                  <input type="checkbox" class="check" name="" id="" />
+                </div>
+                <p class="todoText">Go to Shopping</p>
+                <div class="buttons">
+                  <button id="a" class="deleteBtn btn btn-danger">
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="todoItem">
+              <div class="todoItemWrapper">
+                <div class="checkWrapper">
+                  <input type="checkbox" class="check" name="" id="" />
+                </div>
+                <p class="todoText">Go to Bazar</p>
+                <div class="buttons">
+                  <button id="@" class="deleteBtn btn btn-danger">
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="todoItem">
+              <div class="todoItemWrapper">
+                <div class="checkWrapper">
+                  <input type="checkbox" class="check" name="" id="" />
+                </div>
+                <p class="todoText">Go to Bazar</p>
+                <div class="buttons">
+                  <button id="@" class="deleteBtn btn btn-danger">
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </body>
+    </div>
   </body>
 </html>
